@@ -18,9 +18,8 @@ body{
 
 .app{
     background-color: #D75281;
-    margin-top: 15%;
-    padding: 30px;
-    height: 300px;
+    margin-top: 8%;
+    height: 380px;
     width: 400px;
     border-radius: 20px;
     justify-content: center;
@@ -31,12 +30,14 @@ body{
 
 
 .temp{
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: 900;
-    background-color: #FFB3B3;
-    padding: 40px 50px;
+    font-family: Dongle;
+    padding: 50px 50px;
     color: #fff;
-    border-radius: 40%;
+    border:#FFB3B3 solid 5px ;
+    background-color: inherit;
+    border-radius: 60%;
     justify-content: center;
     align-items: center;
 }
@@ -47,13 +48,13 @@ body{
 
 .btn{
     border: 0;
-    border-radius: 15px;
+    border-radius: 25px;
     outline: none;
     cursor: pointer;
-    font-size: 2vw;
-    padding: 20px 30px;
+    font-size: 4vw;
+    padding: 0 30px;
     margin-top: 30px;
-    margin-left: 20px;
+    font-family: Dongle;
     background-color:#7A4495 ;
     color: #fff;
     transition: .3s;
@@ -69,4 +70,15 @@ body{
 
 .cold{
     background-color:rgb(123, 191, 244) ;
+}
+
+.name{
+    margin-top: 40px;
+    /* this font need to be installed!!! */
+    font-family: Dongle;
+    font-weight: 900;
+    font-size: 5vw;
+    justify-content: center;
+    color: rgb(99, 99, 99);
+     text-shadow: 5px 5px 10px rgba(99,99,99);
 }
