@@ -8,17 +8,17 @@ function App() {
 
  const tempIncrease = () =>{
   setTempValue(tempValue + 1)
-  if(tempValue >= 15){
+ 
     setTempColor('hot')
-  }
+  
 
  }
 
  const tempDecrease = () =>{
   setTempValue(tempValue - 1)
-  if (tempValue <= 16) {
+  
     setTempColor('cold')
-  }
+  
 
  }
 
