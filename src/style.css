@@ -19,12 +19,13 @@ body{
 .app{
     background-color: #D75281;
     margin-top: 8%;
-    height: 380px;
+    height: 440px;
     width: 480px;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
     box-shadow: 20px 20px  30px grey;
+
 }
 
 
